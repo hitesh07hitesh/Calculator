@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="warpper">
+        <h1>Calculater</h1>
+        <div class="line0">
+            <input id="result" type="text" readonly placeholder="Enter value">
+            
+        </div>
+        <div class="line1">
+            <input style="background-color: #ff2727;;" type="button" value="C" onclick="result.value=''">
+            <input type="button" value="BackSpace" onclick="backSpace()" >
+            <!-- <input type="button" value="" onclick="liveScreen(3)"> -->
+            <input type="button" value="=" onclick="calculater(result.value)">
+        </div>
+        <div class="line2">
+            <input type="button" value="1" onclick="liveScreen(1)">
+            <input type="button" value="2" onclick="liveScreen(2)">
+            <input type="button" value="3" onclick="liveScreen(3)">
+            <input type="button" value="+" onclick="liveScreen('+')">
+        </div>
+        <div class="line3">
+            <input type="button" value="4" onclick="liveScreen(4)">
+            <input type="button" value="5" onclick="liveScreen(5)">
+            <input type="button" value="6" onclick="liveScreen(6)">
+            <input type="button" value="-" onclick="liveScreen('-')">
+        </div>
+        <div class="line4">
+            <input type="button" value="7" onclick="liveScreen(7)">
+            <input type="button" value="8" onclick="liveScreen(8)">
+            <input type="button" value="9" onclick="liveScreen(9)">
+            <input type="button" value="*" onclick="liveScreen('*')">
+        </div>
+        <div class="line5">
+            <input type="button" value="00" onclick="liveScreen('00')">
+            <input type="button" value="0" onclick="liveScreen(0)">
+            <input type="button" value="." onclick="liveScreen('.')">
+            <input type="button" value="/" onclick="liveScreen('/')">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

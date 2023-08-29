@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #410000;
+    color: #ffffff;
+}
+
+.warpper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    border-color: transparent;
+    /* background-color: #227345;
+    color: #ffffff; */
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
